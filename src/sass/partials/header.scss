@@ -1,0 +1,48 @@
+.header {
+	display: block;
+	position: absolute;
+	width: 100%;
+
+	.container {
+		display: none;
+		@include breakpoint(large) {
+			display: flex;
+			padding: 0;
+			max-width: 1368px;
+			height: 100vh;
+			align-items: center;
+			flex-direction: row;
+			display: flex;
+			justify-content: space-between;
+		}
+
+		.nav-container {
+			ul {
+				list-style-type: none;
+				text-decoration: none;
+				color: #fff;
+				padding: 0;
+				margin: 0;
+
+				li {
+					writing-mode: vertical-rl;
+					text-orientation: vertical;
+					padding: 1rem;
+					font-size: 1.6rem;
+					font-family: "Work Sans", sans-serif;
+				}
+			}
+		}
+
+		.social-container {
+			.icon{
+				padding: 1rem;
+			}
+
+			img {
+				width: 20px;
+				height: 20px;
+			}
+		}
+	}
+}
