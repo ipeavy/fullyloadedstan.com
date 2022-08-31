@@ -65,8 +65,9 @@ h1 {
 }
 
 h2 {
-	font-size: 3.9rem;
-	width: 278px;
+	font-size: 3.6rem;
+	width: 250px;
+	height: 60px;
 	background-color: #DCC552;
 	margin: 0 auto;
 	padding: 0 2rem;
@@ -392,6 +393,9 @@ hr {
 @import "partials/toasts";
 @import "partials/home";
 @import "partials/videos";
+@import "partials/music";
+@import "partials/merch";
+@import "partials/subscribe";
 
 @import "partials/header";
 @import "partials/footer";
