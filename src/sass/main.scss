@@ -211,7 +211,6 @@ hr {
 .container {
 	display: block;
 	width: 100%;
-	max-width: 1368px;
 	margin: 0 auto;
 	position: relative;
 }
@@ -392,6 +391,7 @@ hr {
 @import "partials/grid";
 @import "partials/toasts";
 @import "partials/home";
+@import "partials/videos";
 
 @import "partials/header";
 @import "partials/footer";
