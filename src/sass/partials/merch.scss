@@ -6,6 +6,18 @@
             font-size: 4rem;
             font-family: Proxima Nova Extra Condensed, Extrabold;
         }
+
+        button{
+            background-color: transparent;
+            border: solid #000000 3px;
+            padding: 1rem;
+            font-size: 2rem;
+            font-family: Proxima Nova Extra Condensed, Extrabold;
+
+            &:hover{
+                background-color: #DCC552;
+            }
+        }
     }
 
 }

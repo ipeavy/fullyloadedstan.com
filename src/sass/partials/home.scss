@@ -1,6 +1,10 @@
 .wrapper {
-    .container {
+    .main-container {
         max-width: 1368px;
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+        position: relative;
 
         .heading {
             margin: 5rem 0 0 0;

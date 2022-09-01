@@ -56,10 +56,10 @@ h6 {
 h1 {
 	font-size: 4.5rem;
 	color: #fff;
-	font-family: Proxima Nova Extra Condensed ,Extrabold;
+	font-family: Proxima Nova Extra Condensed, Extrabold;
 	cursor: pointer;
 
-	&:hover{
+	&:hover {
 		color: #DCC552;
 	}
 }
@@ -214,6 +214,10 @@ hr {
 	width: 100%;
 	margin: 0 auto;
 	position: relative;
+
+	@include breakpoint(large) {
+		max-height: 768px;
+	}
 }
 
 .page-content {
