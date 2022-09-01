@@ -1,6 +1,27 @@
 .music-section {
     background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/2f63f48b-844e-41f9-d10f-6fd83baf5f00/public");
 
+    .vid-title{
+        display: flex;
+        
+
+
+        .social-music{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0 0 0 4rem;
+            img{
+                width: 28px;
+                height: 28px;
+            }
+
+            .icon{
+                padding: .5rem;
+            }
+        }
+    }
+
     .music-container {
         .music {
             background-color: none;
