@@ -95,7 +95,7 @@ p {
 
 a {
 	text-decoration: none;
-	color: $color-link;
+	color: #fff;
 }
 
 b,
@@ -218,6 +218,9 @@ hr {
 	@include breakpoint(large) {
 		max-height: 768px;
 	}
+	
+
+	
 }
 
 .page-content {
