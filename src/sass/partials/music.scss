@@ -1,25 +1,7 @@
 .music-section {
     background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/2f63f48b-844e-41f9-d10f-6fd83baf5f00/public");
 
-    .music-title {
-        margin: 0 auto;
-
-        @include breakpoint(large) {
-            margin: 0;
-        }
-    }
-
-    .vid-title {
-        display: flex;
-        flex-direction: column;
-
-        @include breakpoint(large){
-            flex-direction: row;
-        }
-
-
-
-        .social-music {
+    .social-music {
             margin: 0 auto;
             display: flex;
             flex-direction: row;
@@ -41,16 +23,31 @@
                 padding: .5rem;
             }
         }
+
+    .social-title {
+        display: flex;
+        flex-direction: column;
+
+        @include breakpoint(large){
+            flex-direction: row;
+        }
     }
 
     .music-container {
+        .col{
+            margin: 3.5rem auto;
+        }
+
+        img{
+            max-height: 360px;
+        }
+        
         .music {
             background-color: none;
             color: #fff;
-            padding: 1rem;
 
             .title {
-                font-size: 3rem;
+                font-size: 3.2rem;
             }
 
             p {

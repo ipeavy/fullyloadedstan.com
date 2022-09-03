@@ -66,11 +66,7 @@ h1 {
 
 h2 {
 	font-size: 3.6rem;
-	width: 250px;
-	height: 60px;
-	background-color: #DCC552;
-	margin: 0 auto;
-	padding: 0 2rem;
+
 }
 
 h3 {
@@ -218,9 +214,31 @@ hr {
 	@include breakpoint(large) {
 		max-height: 768px;
 	}
-	
 
-	
+	.vid-title {
+		text-align: left;
+		padding: 2rem 0 6rem 0;
+		background-color: #DCC552;
+		width: 250px;
+		height: 30px;
+		margin: 3.5rem auto;
+
+
+		@include breakpoint(large) {
+			margin: 5rem 0;
+		}
+
+		
+
+		h2 {
+			margin: 0;
+			padding: 0 0 0 1rem;
+			font-family: Proxima Nova Extra Condensed, Extrabold;
+		}
+	}
+
+
+
 }
 
 .page-content {
