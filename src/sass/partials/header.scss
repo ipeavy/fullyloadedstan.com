@@ -2,6 +2,7 @@
 	display: block;
 	position: absolute;
 	width: 100%;
+	z-index: 100;
 
 	.container {
 		display: none;
@@ -39,11 +40,17 @@
 		.social-container {
 			.icon{
 				padding: 1rem;
+
+				
 			}
 
 			img {
 				width: 20px;
 				height: 20px;
+
+				&:hover{
+					opacity: .5;
+				}
 			}
 		}
 	}
