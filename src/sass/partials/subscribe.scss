@@ -2,8 +2,10 @@
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
-    font-family: Proxima Nova Extra Condensed, Extrabold;
-    background-image: url("https://imagedelivery.net/69_vwp5TEvZvAzsHMtkORA/d84fb9a9-5aa5-4a4d-edcb-6f502a066100/public");
+    font-family: montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    background-image: url("https://i.imgur.com/jMP0Ykv.png");
 
     @include breakpoint(medium) {
         height: 600px;
@@ -33,8 +35,10 @@
                 flex-direction: row;
                 max-width: 400px;
                 width: 100%;
-                 font-size: 2.3rem;
-                font-family: Proxima Nova Extra Condensed, Extrabold;
+                font-size: 2.3rem;
+                font-family: montserrat, sans-serif;
+                font-style: normal;
+                font-weight: 900;
 
 
                 .indicates-required {
@@ -53,7 +57,12 @@
                         width: 100%;
                         max-width: 400px;
                         color: #000000;
-                       
+
+                        &:hover {
+                            background-color: #DCC552;
+                            border: 4px solid#DCC552;
+                        }
+
 
                     }
                 }

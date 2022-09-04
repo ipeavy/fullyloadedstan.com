@@ -26,17 +26,19 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	font-family: $font;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 900;
+	overflow-x: hidden;
 	font-size: 1.4rem;
-	font-weight: $font-normal;
 	line-height: 1.6;
 	position: relative;
 	overflow-x: hidden;
 	color: $color-text;
 	background-color: #111111;
 
-	@media (max-width: 768px) {
-		line-height: 1.2;
+	@include breakpoint(medium){
+
 	}
 }
 
@@ -47,17 +49,21 @@ h4,
 h5,
 h6 {
 	font: inherit;
-	font-weight: 800;
+	font-weight: 900;
 	line-height: 1.2;
 	margin: 0 0 1em 0;
 	color: $color-heading;
 }
 
 h1 {
-	font-size: 4.5rem;
+	font-size: 3.5rem;
 	color: #fff;
-	font-family: Proxima Nova Extra Condensed, Extrabold;
+	font-family: montserrat, sans-serif;
 	cursor: pointer;
+
+	@include breakpoint (medium){
+		font-size: 4.5rem;
+	}
 
 	&:hover {
 		color: #DCC552;
@@ -65,7 +71,11 @@ h1 {
 }
 
 h2 {
-	font-size: 3.6rem;
+	font-size: 3rem;
+
+	@include breakpoint (medium){
+		font-size: 3.6rem;
+	}
 
 }
 
@@ -87,12 +97,35 @@ h6 {
 
 p {
 	margin: 0 0 1em 0;
+	font-family: montserrat, sans-serif;
+	font-style: normal;
+	font-weight: 900;
 }
 
 a {
 	text-decoration: none;
 	color: #fff;
 }
+
+ /* unvisited link */
+a:link {
+  color: #fff;
+}
+
+/* visited link */
+a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fff;
+}
+
+/* selected link */
+a:active {
+  color: #fff;
+} 
 
 b,
 strong {
@@ -228,12 +261,14 @@ hr {
 			margin: 5rem 0;
 		}
 
-		
+
 
 		h2 {
 			margin: 0;
 			padding: 0 0 0 1rem;
-			font-family: Proxima Nova Extra Condensed, Extrabold;
+			font-family: montserrat, sans-serif;
+			font-style: normal;
+			font-weight: 900;
 		}
 	}
 

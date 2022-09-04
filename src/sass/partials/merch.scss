@@ -6,20 +6,25 @@
 
     .merch-container {
         padding: 0 0 4rem 0;
+
         p {
             font-size: 4rem;
             color: #000000;
-            font-family: Proxima Nova Extra Condensed, Extrabold;
+            font-family: montserrat, sans-serif;
+            font-style: normal;
+            font-weight: 900;
         }
 
-        button{
+        button {
             background-color: transparent;
             border: solid #000000 3px;
             padding: 1rem;
             font-size: 2rem;
-            font-family: Proxima Nova Extra Condensed, Extrabold;
+            font-family: montserrat, sans-serif;
+            font-style: normal;
+            font-weight: 900;
 
-            &:hover{
+            &:hover {
                 background-color: #DCC552;
             }
         }
