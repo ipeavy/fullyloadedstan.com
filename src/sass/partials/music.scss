@@ -23,12 +23,16 @@
         }
 
         img {
-            width: 28px;
-            height: 28px;
+            width: 30px;
+            height: 30px;
         }
 
         .icon {
-            padding: .5rem;
+            padding: 2.5rem;
+
+            @include breakpoint(large) {
+                padding: .5rem;
+            }
         }
     }
 
