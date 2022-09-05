@@ -29,6 +29,11 @@
 
         .icon {
             padding: 2.5rem;
+            cursor: pointer;
+
+            &:hover{
+                opacity: .5;
+            }
 
             @include breakpoint(large) {
                 padding: .5rem;
