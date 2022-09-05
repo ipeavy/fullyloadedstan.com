@@ -56,23 +56,15 @@
 
             .title {
                 padding: 1rem 0 0 0;
-                font-size: 2.6rem;
-
-                @include breakpoint(medium){
-                    font-size: 3.1rem;
-                }
+                font-size: 2.1rem;
             }
 
             p {
-                font-size: 2.1rem;
+                font-size: 1.8rem;
                 margin: 0;
                 font-family: montserrat, sans-serif;
                 font-style: normal;
                 font-weight: 900;
-
-                 @include breakpoint(medium){
-                    font-size: 2.6rem;
-                }
             }
         }
     }

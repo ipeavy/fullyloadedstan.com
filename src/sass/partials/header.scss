@@ -6,6 +6,7 @@
 
 	.container {
 		display: none;
+
 		@include breakpoint(large) {
 			display: flex;
 			padding: 0;
@@ -19,36 +20,37 @@
 
 		.nav-container {
 			display: flex;
-			flex-direction: column;
+			flex-direction: row;
 			z-index: 3;
+			align-self: flex-start;
+			height: 300px;
+			margin: auto;
 
-				a {
-					color: #fff;
-					writing-mode: vertical-rl;
-					text-orientation: vertical;
-					padding: 1rem;
-					font-size: 1.6rem;
-					font-family: "Work Sans", sans-serif;
+			a {
+				color: #fff;
+				padding: 1rem;
+				font-size: 1.6rem;
+				font-family: "Work Sans", sans-serif;
 
-					&:hover{
-						color: #DCC552;
-					}
+				&:hover {
+					color: #DCC552;
 				}
-			
+			}
+
 		}
 
 		.social-container {
-			.icon{
+			.icon {
 				padding: 1rem;
 
-				
+
 			}
 
 			img {
 				width: 20px;
 				height: 20px;
 
-				&:hover{
+				&:hover {
 					opacity: .5;
 				}
 			}
