@@ -38,7 +38,7 @@ body {
 	background-color: #111111;
 
 	@include breakpoint(medium){
-
+		overflow-x: auto;
 	}
 }
 
