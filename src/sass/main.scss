@@ -37,7 +37,7 @@ body {
 	color: $color-text;
 	background-color: #111111;
 
-	@include breakpoint(medium){
+	@include breakpoint(medium) {
 		overflow-x: auto;
 	}
 }
@@ -61,7 +61,7 @@ h1 {
 	font-family: montserrat, sans-serif;
 	cursor: pointer;
 
-	@include breakpoint (medium){
+	@include breakpoint (medium) {
 		font-size: 4.5rem;
 	}
 
@@ -73,7 +73,7 @@ h1 {
 h2 {
 	font-size: 3rem;
 
-	@include breakpoint (medium){
+	@include breakpoint (medium) {
 		font-size: 3.6rem;
 	}
 
@@ -108,25 +108,25 @@ a {
 	cursor: pointer;
 }
 
- /* unvisited link */
+/* unvisited link */
 a:link {
-  color: #fff;
+	color: #fff;
 }
 
 /* visited link */
 a:visited {
-  color: #fff;
+	color: #fff;
 }
 
 /* mouse over link */
 a:hover {
-  color: #fff;
+	color: #fff;
 }
 
 /* selected link */
 a:active {
-  color: #fff;
-} 
+	color: #fff;
+}
 
 b,
 strong {
@@ -273,11 +273,15 @@ hr {
 		}
 	}
 
-	.col{
-		&:hover{
-			transform: scale(1.1);
-			transition: all ease-in-out .1s;
+	.col {
+
+		@include breakpoint(large) {
+			&:hover {
+				transform: scale(1.1);
+				transition: all ease-in-out .1s;
+			}
 		}
+
 	}
 
 
