@@ -1,5 +1,6 @@
 // TOASTS
 @@include('partials/toasts.js')
+@@include('partials/navbar.js')
 
 // SETTINGS
 const BASE_URL = window.location.protocol + '//' + window.location.host;
