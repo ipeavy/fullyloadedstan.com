@@ -4,6 +4,7 @@ const merchlink = document.querySelector('.merchLink');
 const subscribelink = document.querySelector('.subscribeLink');
 const sidebar = document.getElementById('sidebarMenu');
 const hamburger = document.getElementById('ham');
+const closer = document.getElementById('close');
 
 musiclink.addEventListener('click', () => {
     if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
@@ -14,24 +15,24 @@ musiclink.addEventListener('click', () => {
 })
 
 videolink.addEventListener('click', () => {
-            if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
-                    sidebar.classList.remove("active");
-                sidebar.classList.remove("nonactive");
-                }
+    if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
+        sidebar.classList.remove("active");
+        sidebar.classList.remove("nonactive");
+    }
 })
 
 merchlink.addEventListener('click', () => {
-            if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
-                    sidebar.classList.remove("active");
-                sidebar.classList.remove("nonactive");
-                }
+    if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
+        sidebar.classList.remove("active");
+        sidebar.classList.remove("nonactive");
+    }
 })
 
 subscribelink.addEventListener('click', () => {
-            if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
-                    sidebar.classList.remove("active");
-                sidebar.classList.remove("nonactive");
-                }
+    if (sidebar.classList.contains('active') || (sidebar.classList.contains('nonactive'))) {
+        sidebar.classList.remove("active");
+        sidebar.classList.remove("nonactive");
+    }
 })
 
 
@@ -42,5 +43,12 @@ hamburger.addEventListener('click', () => {
     } else {
         sidebar.classList.add("nonactive");
 
+    }
+})
+
+closer.addEventListener('click', () => {
+    if (sidebar.classList.contains('nonactive') || (sidebar.classList.contains('active'))) {
+        sidebar.classList.remove("nonactive");
+        sidebar.classList.remove("active");
     }
 })

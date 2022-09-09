@@ -7,12 +7,17 @@
 	.ham-container {
 		.ham-menu {
 			position: fixed;
-			right: 2rem;
+			right: 1.5rem;
 			top: 1rem;
+
+			@include breakpoint(large){
+				display: none;
+			}
 
 			img {
 				width: 30px;
 				height: 20px;
+				cursor: pointer;
 			}
 		}
 	}
@@ -28,6 +33,22 @@
 		transform: translateY(-1770px);
 		transition: transform 600ms ease-in-out;
 		background: #212121;
+
+		.ham-menu {
+			position: fixed;
+			right: 1.5rem;
+			top: 3rem;
+
+			@include breakpoint(large){
+				display: none;
+			}
+
+			img {
+				width: 20px;
+				height: 20px;
+				cursor: pointer;
+			}
+		}
 
 		&.nonactive {
 			transform: translateY(0px);
@@ -109,90 +130,10 @@
 	// 	}
 	// }
 
-	input[type=checkbox] {
-		transition: all 0.3s;
-		box-sizing: border-box;
-		display: none;
-
-		&:checked {
-			~ {
-				.sidebarIconToggle {
-					>.horizontal {
-						transition: all 0.3s;
-						box-sizing: border-box;
-						opacity: 0;
-					}
-
-					>.diagonal.part-1 {
-						transition: all 0.3s;
-						box-sizing: border-box;
-						transform: rotate(135deg);
-						margin-top: 8px;
-					}
-
-					>.diagonal.part-2 {
-						transition: all 0.3s;
-						box-sizing: border-box;
-						transform: rotate(-135deg);
-						margin-top: -9px;
-					}
-				}
-			}
-		}
-	}
-
-	.sidebarIconToggle {
-		transition: all 0.3s;
-		box-sizing: border-box;
-		cursor: pointer;
-		position: fixed;
-		z-index: 104;
-		height: 100%;
-		width: 100%;
-		top: 22px;
-		right: 15px;
-		height: 22px;
-		width: 22px;
-
-		@include breakpoint(large) {
-			display: none;
-		}
 
 
-	}
 
-	.spinner {
-		transition: all 0.3s;
-		box-sizing: border-box;
-		position: absolute;
-		height: 3px;
-		width: 100%;
-		background-color: #ffffff;
-	}
 
-	.horizontal {
-		transition: all 0.3s;
-		box-sizing: border-box;
-		position: relative;
-		float: left;
-		margin-top: 3px;
-	}
-
-	.diagonal.part-1 {
-		position: relative;
-		transition: all 0.3s;
-		box-sizing: border-box;
-		float: left;
-	}
-
-	.diagonal.part-2 {
-		transition: all 0.3s;
-		box-sizing: border-box;
-		position: relative;
-		float: left;
-		margin-top: 3px;
-
-	}
 
 
 	.container {
