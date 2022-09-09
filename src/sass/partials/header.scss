@@ -4,6 +4,19 @@
 	width: 100%;
 	z-index: 100;
 
+	.ham-container {
+		.ham-menu {
+			position: fixed;
+			right: 2rem;
+			top: 1rem;
+
+			img {
+				width: 30px;
+				height: 20px;
+			}
+		}
+	}
+
 	#sidebarMenu {
 		z-index: 102;
 		position: fixed;
@@ -17,7 +30,7 @@
 		background: #212121;
 
 		&.nonactive {
-			transform: translateY(0px) ;
+			transform: translateY(0px);
 		}
 
 		&.active {
