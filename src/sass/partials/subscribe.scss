@@ -13,9 +13,10 @@
 
     .input-container {
         p {
-            font-size: 3rem;
+            font-size: 2rem;
             width: 100%;
             color: #fff;
+            font-weight: 700;
         }
 
         .email-container {
@@ -35,10 +36,10 @@
                 flex-direction: row;
                 max-width: 400px;
                 width: 100%;
-                font-size: 2.3rem;
+                font-size: 2rem;
                 font-family: montserrat, sans-serif;
                 font-style: normal;
-                font-weight: 900;
+                font-weight: 700;
 
 
                 .indicates-required {

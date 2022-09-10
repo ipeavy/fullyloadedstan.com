@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="50" height="16" viewBox="0 0 50 16">
+<svg xmlns="http://www.w3.org/2000/svg" width="50" height="22" viewBox="0 0 50 22">
   <g id="Group_8" data-name="Group 8" transform="translate(1599 31)">
     <g id="Rectangle_33" data-name="Rectangle 33" transform="translate(-1599 -31)" fill="#fff" stroke="#afafaf" stroke-width="0.2">
       <rect width="50" height="4" stroke="none"/>
       <rect x="0.1" y="0.1" width="49.8" height="3.8" fill="none"/>
     </g>
-    <g id="Rectangle_34" data-name="Rectangle 34" transform="translate(-1599 -25)" fill="#fff" stroke="#afafaf" stroke-width="0.2">
+    <g id="Rectangle_34" data-name="Rectangle 34" transform="translate(-1599 -22)" fill="#fff" stroke="#afafaf" stroke-width="0.2">
       <rect width="50" height="4" stroke="none"/>
       <rect x="0.1" y="0.1" width="49.8" height="3.8" fill="none"/>
     </g>
-    <g id="Rectangle_35" data-name="Rectangle 35" transform="translate(-1599 -19)" fill="#fff" stroke="#afafaf" stroke-width="0.2">
+    <g id="Rectangle_35" data-name="Rectangle 35" transform="translate(-1599 -13)" fill="#fff" stroke="#afafaf" stroke-width="0.2">
       <rect width="50" height="4" stroke="none"/>
       <rect x="0.1" y="0.1" width="49.8" height="3.8" fill="none"/>
     </g>
